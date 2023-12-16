@@ -31,11 +31,11 @@
 
 <h2>New book</h2>
 <%= form_with model: @book do |f| %>
-<p>Title</p>
-<%= f.text_field :title %>
-<p>Body</p>
-<%= f.text_field :body %>
-
-<%= f.submit 'Create book' %>
+<p>Title<br>
+<%= f.text_field :title %></p>
+<p>Body<br>
+<%= f.text_field :body %></p>
+<br>
+<%= f.submit 'Create Book' %>
 
 <% end %>
